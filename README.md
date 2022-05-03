@@ -1,7 +1,21 @@
 #### OpenLabs JobUp App Challenge Open Source Project Instructions and Overview
 
+![](https://github.com/OpenLabs-Job-App-404-Solutions/.github/blob/main/jobUp.jpeg)
 
-# Project Title
+
+# OpenLabs JobUp App Challenge - 404 Solutions
+
+
+Successful development teams establish goals at the beginning of each project, and constantly communicate with members from other teams to manage dependencies at each iteration. We support each other to solve problems at a much faster pace. Which in turn, helps the system sprint in quality, measurable increments.
+
+![](https://github.com/OpenLabs-Job-App-404-Solutions/.github/blob/main/404.jpeg)
+
+Namely: 
+# Godfred Addai Amoako - Project Manager & Product Designer
+# Safana - Backend Development 
+# Marvin - Digital Marketing and Customer Feedback 
+# Elliot - Android Developer 
+
 
 **Description**:Job Up App purposes is that, OpenLabs Students, Alumni can easily apply for intership and jobs, as school admininstation manages its smoothy with a few clicks
 
@@ -77,13 +91,6 @@ General instructions on _how_ to contribute should be stated with a link to [CON
 ## Open source licensing info
 1. [TERMS](TERMS.md)
 2. [LICENSE](LICENSE)
-3. [CFPB Source Code Policy](https://github.com/cfpb/source-code-policy/)
 
 
 ----
-
-## Credits and references
-
-1. Projects that inspired you
-2. Related projects
-3. Books, papers, talks, or other sources that have meaningful impact or influence on this project
