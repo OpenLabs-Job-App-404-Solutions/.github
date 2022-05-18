@@ -13,8 +13,10 @@ Successful development teams establish goals at the beginning of each project, a
 Namely: 
 # Godfred Addai Amoako - Project Manager & Product Designer
 # Safana - Backend Development 
-# Marvin - Digital Marketing and Customer Feedback 
+# Marvin - Nothing 
 # Elliot - Android Developer 
+# Kevin Awuku - React
+
 
 
 **Description**:Job Up App purposes is that, OpenLabs Students, Alumni can easily apply for intership and jobs, as school admininstation manages its smoothy with a few clicks
@@ -28,8 +30,81 @@ Other things to include:
 
 
   - **Status**:  Alpha, Beta, 1.1, This is the first version of JobUp; The goal is to let interested people exprience the user intreactive of this project, as they will be signUp/SigniN and apply for jobs/interns on sample company data.
-  - **Links to production or demo instances**
-  - Describe what sets this apart from related-projects. Linking to another doc or page is OK if this can't be expressed in a sentence or two.
+  - **Routes of the the Backend **
+  - Jobs Up
+ 
+
+Routes
+
+You're to test your app on this 
+
+Blog 
+
+GET localhost:/
+GET localhost:/blogs Auth{basic}
+POST localhost:/blogs Auth{Super Admin}
+PATCH localhost:/blogs Auth{Super Admin}
+DELETE localhost:blogiD Auth{Super Admin}
+
+
+Admin
+
+GET localhost: /company/confirm Auth{Admin}
+GET localhost: /alumni/confirm Auth{Admin}
+GET localhost: /student/confirm Auth{Admin}
+
+POST localhost: /company/profile/verified Auth{Admin}
+POST localhost: /alumni/profile/verified Auth{Admin}
+PATCH localhost: /company/profile/Verified Auth{Admin}
+
+DELETE localhost: /company/profile Auth{Admin}
+DELETE localhost: /alumni/profile Auth{Admin}
+DELETE localhost: /student/profile Auth{Admin}
+
+Company 
+GET localhost:/ Dashboard Auth{Company , } 
+POST  localhost:/ Dashboard/Jobs Auth{Company }
+PATCH  localhost:/ Dashboard/Jobs Auth{Company , } 
+
+
+Alumni & Ally 
+
+POST localhost: /alumni/confirmCert/ Auth{Basic}
+PATCH localhost: /alumni /confirmCert/ Auth{basic }
+
+POST localhost: /ally/institutionalCode/ Auth{Admin}
+DELETE localhost: /ally /institutionalCode/ Auth{Admin }
+
+
+
+Jobs 
+GET localhost:/ Jobs Auth{Basic} 
+GET  localhost: /Job/Find Auth{All}
+GET  localhost: /Job/Find/JobiD Auth{All}
+POST localhost: /Job/Apply Auth{Alumni, Students}
+PATCH localhost: /Job/Apply Auth{Alumni, Students}
+DELETE localhost: /Job/Apply Auth{Alumni, Students}
+
+GET localhost:/Company Auth{All} 
+GET localhost:/Company/profile Auth{All} 
+GET  localhost: /Company/Find Auth{All}
+GET  localhost: /Company/Find/CompanyiD Auth{All}
+
+
+User
+GET localhost:/User/SignUp Auth{All}
+POST localhost:/User/SignUp Auth{All}
+POST localhost:/User/SignIn/token Auth{All}
+GET localhost:/User/ResetPass/ Auth{All}
+POST localhost:/User/ResetPass/ Auth{All}
+
+
+
+FeedBack 
+POST localhost:/ Feedback Auth{Company , Alumni, Students } 
+GET  localhost:/ Feedback/Jobs Auth{Super Admin }
+
+
 
 
 **Screenshot**: If the software has visual components, place a screenshot after the description; e.g.,
@@ -37,21 +112,21 @@ Other things to include:
 ![](https://github.com/OpenLabs-Job-App-404-Solutions/.github/blob/main/signUp.jpeg)
 ![](https://github.com/OpenLabs-Job-App-404-Solutions/.github/blob/main/email%20verification.jpeg)
 ![](https://github.com/OpenLabs-Job-App-404-Solutions/.github/blob/main/mesage.jpeg)
+![](https://github.com/OpenLabs-Job-App-404-Solutions/.github/blob/main/WhatsApp%20Image%202022-05-18%20at%209.42.13%20AM.jpeg)
+![](https://github.com/OpenLabs-Job-App-404-Solutions/.github/blob/main/WhatsApp%20Image%202022-05-18%20at%209.42.13%20AM%20(1).jpeg)
+![](https://github.com/OpenLabs-Job-App-404-Solutions/.github/blob/main/WhatsApp%20Image%202022-05-18%20at%209.42.12%20AM.jpeg)
 
 
-## Dependencies
-
-Describe any dependencies that must be installed for this software to work.
-This includes programming languages, databases or other storage mechanisms, build tools, frameworks, and so forth.
-If specific versions of other software are required, or known not to work, call that out.
 
 ## Installation
 
-Detailed instructions on how to install, configure, and get the project running.
-This should be frequently tested to ensure reliability. Alternatively, link to
-a separate [INSTALL](INSTALL.md) document.
+Detailed instructions on how to install, configure, and get the project running will be given to school management after we win.
+You can download this buggy app for now and test our User Interactions of The Job App
+[INSTALL](https://drive.google.com/file/d/1z1e-r0tn_mpX2Tl_0QtDg0uw36Z_bofG/view?usp=sharing) Android App .
 
-## Configuration
+## Android Architure 
+Model-View-ViewModel (ie MVVM) is a template of a client application architecture, proposed by John Gossman as an alternative to MVC and MVP patterns when using Data Binding technology. Its concept is to separate data presentation logic from business logic by moving it into particular class for a clear distinction. 
+![](https://github.com/OpenLabs-Job-App-404-Solutions/.github/blob/main/mvvm2.png)
 
 If the software is configurable, describe it in detail, either here or in other documentation to which you link.
 
@@ -79,9 +154,9 @@ If you have questions, concerns, bug reports, etc, please file an issue in this 
 
 ## Getting involved
 
-This section should detail why people should get involved and describe key areas you are
-currently focusing on; e.g., trying to get feedback on features, fixing certain bugs, building
-important pieces, etc.
+OpenLabs JobUp challenge 404 Solutions is the best, as it focus on solving internship dfiiculties as the school and easily 
+auotmate redaunant works, send me a private mail if you want to contribute to this. 
+
 
 General instructions on _how_ to contribute should be stated with a link to [CONTRIBUTING](CONTRIBUTING.md).
 
