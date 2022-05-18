@@ -37,7 +37,7 @@ Other things to include:
 Routes
 
 You're to test your app on this 
-
+<h2>
 Blog 
 
 GET localhost:/
@@ -104,7 +104,7 @@ FeedBack
 POST localhost:/ Feedback Auth{Company , Alumni, Students } 
 GET  localhost:/ Feedback/Jobs Auth{Super Admin }
 
-
+</h2>
 
 
 **Screenshot**: If the software has visual components, place a screenshot after the description; e.g.,
