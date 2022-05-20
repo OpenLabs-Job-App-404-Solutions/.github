@@ -13,9 +13,10 @@ Successful development teams establish goals at the beginning of each project, a
 Namely: 
 # Godfred Addai Amoako - Project Manager & Product Designer
 # Safana - Backend Development 
-# Marvin - Nothing 
+# Marvin - Problem Solver  
 # Elliot - Android Developer 
-# Kevin Awuku - React
+# Kevin Awuku - React (Open Source Recruit) 
+# Carlos - Open Source 
 
 
 
@@ -118,6 +119,7 @@ GET  localhost:/ Feedback/Jobs Auth{Super Admin }
 
 
 
+
 ## Installation
 
 Detailed instructions on how to install, configure, and get the project running will be given to school management after we win.
@@ -129,6 +131,9 @@ Model-View-ViewModel (ie MVVM) is a template of a client application architectur
 ![](https://github.com/OpenLabs-Job-App-404-Solutions/.github/blob/main/mvvm2.png)
 
 If the software is configurable, describe it in detail, either here or in other documentation to which you link.
+
+We had a little app so we switched to Database 
+![](https://github.com/OpenLabs-Job-App-404-Solutions/.github/blob/main/Firebase-2-1.png)
 
 ## Usage
 
